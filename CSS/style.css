@@ -50,3 +50,16 @@ div.central{
     padding-right: 10%;
     background-color: #19191A;
 }
+
+.carousel-img{
+    padding: 0 5% 0 5%;
+    width: 50%;
+    height:100%;
+}
+
+.carousel-box{
+    background-color: #8a8a8a;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}

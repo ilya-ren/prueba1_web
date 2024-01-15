@@ -1,0 +1,8 @@
+---carrusel al inicio
+2 lineas más de imagenes
+centrar pagina de contactanos
+pestaña de login
+galerai que lleve productos
+carrusel que lleve imagenes de arte, no productos
+pestaña de eventos
+bordes en barra negra de pestaña galeria
