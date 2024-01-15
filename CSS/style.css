@@ -2,7 +2,7 @@ h1.titulo{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 48px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     padding-left: 40px;
     padding-right: 15px;
     padding-top: 30px;
@@ -11,15 +11,17 @@ h1.titulo{
 h2.subtit{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 28px;
-    text-align: left;
+    text-align: center;
     padding-left: 40px;
     padding-bottom: 10px;
 }
 
 div.bfondo{
-    height: 70%;
-    width: 90%;
+  
     background-color: #19191A;
+    align-items: center;
+    align-content: center;
+    border-bottom: ghostwhite;
     
 }
 p.textb{
@@ -30,7 +32,7 @@ p.textb{
     padding-left: 40px;
     padding-right: 20px;
     padding-top: 15px;
-    text-align: left;
+    text-align: center;
     vertical-align: middle;
     flex-wrap: wrap;
 }
@@ -40,4 +42,14 @@ main.cont{
     flex-direction: row;
     flex-wrap: wrap;
 
+}
+
+div.central{
+    align-items: center;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #19191A;
 }

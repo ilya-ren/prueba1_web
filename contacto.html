@@ -33,7 +33,64 @@
 </header>
 <body>
     <main class="cont">
-    <h1 class="titulo">Contacta con nosotros</h1>
+    
+    <div>
+        <h1 class="titulo"> Contacta con nosotros</h1>
+        <h2 class="subtit"> En GroundZero siempre estamos felices de quienes se interesan en el arte y buscan expandir su creatividad. <br>
+        Puedes contactarnos si estas buscando algún artista o trabajo en especifico, solo mencionalo y así podremos ver disponibilidad, <br>
+        o si uno de nuestros artistas encaja con lo que buscas. Puedes preguntar por información o alguno de los eventos en que participan <br>
+        nuestros talentos</h2>
+    </h2>
+    <div>
+        <form class="was-validated ">
+            <div class="mb-3">
+                <p>Dejanos aqui tu mensaje: </p>
+              <label for="validationTextarea" class="form-label">Escribe tu mensaje...</label>
+              <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+              <div class="invalid-feedback">
+                Debes de enviar un mensaje.
+              </div>
+            </div>
+          
+           
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+              <label class="form-check-label" for="validationFormCheck2">Soy un posible cliente.</label>
+            </div>
+            <div class="form-check mb-3">
+              <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+              <label class="form-check-label" for="validationFormCheck3">Soy Artista.</label>
+              <div class="invalid-feedback">Por favor, marca una opción.</div>
+            </div>
+          
+            <div class="mb-3">
+              <select class="form-select" required aria-label="select example">
+                <option value="">Quisiera saber de:</option>
+                <option value="1">Un artista.</option>
+                <option value="2">Un evento.</option>
+                <option value="3">Como aportar.</option>
+                <option value="3">Quiero información.</option>
+              </select>
+              <div class="invalid-feedback">Por favor, elige una alternativa.</div>
+            </div>
+          
+            <div class="mb-3">
+                <p>En caso de requerir algun tipo de trabajo o consulta, puedes subir una imagen de referencia.</p>
+              <input type="file" class="form-control" aria-label="file example" >
+              
+            </div>
+            <div class="mb-3">
+                <p>Indicanos tu correo, para poder contactar contigo.</p>
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+          
+            <div class="mb-3">
+              <button class="btn btn-primary" type="submit" disabled>Submit form</button>
+            </div>
+          </form>
+    </div>
+    </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
