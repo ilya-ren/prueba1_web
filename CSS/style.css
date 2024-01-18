@@ -21,7 +21,7 @@ div.bfondo{
     background-color: #19191A;
 
 }
-p.textb{
+.textb{
     flex-wrap: wrap;
     color: ghostwhite;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -63,3 +63,4 @@ div.central{
     padding: 0;
     margin: 0;
 }
+
